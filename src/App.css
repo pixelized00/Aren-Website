@@ -1,0 +1,88 @@
+@import url("https://use.typekit.net/erg2eep.css");
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Define your custom font */
+.font-lemongrass {
+  font-family: "Lemongrass Caps", sans-serif;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.font-poppinst {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+.font-lemongrassscript {
+  font-family: "Lemongrass Script", sans-serif;
+}
+.font-breveia {
+  font-family: "Brevia Black Italic", sans-serif;
+}
+.font-breveiablack {
+  font-family: "brevia", sans-serif;
+}
+.font-chillscript {
+  font-family: "chill script", sans-serif;
+}
+.carousel-wrapper {
+  perspective: 1000px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-control {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-item {
+  width: 100px; /* Set width as needed */
+  height: 100px; /* Set height as needed */
+  margin: 0 10px;
+  transition: transform 0.5s ease;
+}
